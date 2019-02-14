@@ -1,0 +1,10 @@
+﻿  main.cpp
+c:\users\sy\source\repos\automatic_programming\automatic_programming\pattern_analysis.h(21): warning C4018: '>': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\sy\source\repos\automatic_programming\automatic_programming\pattern_analysis.h(36): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\sy\source\repos\automatic_programming\automatic_programming\pattern_analysis.h(90): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\sy\source\repos\automatic_programming\automatic_programming\pattern_analysis.h(130): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\sy\source\repos\automatic_programming\automatic_programming\pattern_analysis.h(178): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\sy\source\repos\automatic_programming\automatic_programming\pattern_analysis.h(220): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\sy\source\repos\automatic_programming\automatic_programming\pattern_analysis.h(250): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\sy\source\repos\automatic_programming\automatic_programming\pattern_analysis.h(15): warning C4101: 'p' :참조되지 않은 지역 변수입니다.
+  Automatic_Programming.vcxproj -> C:\Users\sy\source\repos\Automatic_Programming\Debug\Automatic_Programming.exe
