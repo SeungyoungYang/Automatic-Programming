@@ -20,8 +20,9 @@
 int main() {
 	string filename;
 	int input, line_num = 0;
-	cout << "File name >> ";
+	cout << "Input file name >> ";
 	cin >> filename;
+	cout << '\n';
 
 	Reader rd;
 	string* line = rd.read(filename, input, line_num);

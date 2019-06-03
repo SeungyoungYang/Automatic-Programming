@@ -22,7 +22,7 @@ public:
 				max_length = line[i].length();
 		}
 
-		if (max_length == input) { // Pattern 0, 1
+		if (max_length == input) { // Pattern 1 
 			int star_num, count;
 
 			if (line_num == input) { // º°Âï±â14
@@ -106,7 +106,7 @@ public:
 			if (star_num != count)
 				return false;
 
-			if (line_num == 2 * input - 1) {
+			if (line_num == 2 * input - 1) { // Pattern 3
 				star_num = input * (input + 1) / 2;
 				count = 0;
 				start = 0;
@@ -188,7 +188,7 @@ public:
 			if (star_num != count)
 				return false;
 
-			if (line_num == 2 * input - 1) {
+			if (line_num == 2 * input - 1) { // Pattern 4
 				star_num = input * input;
 				count = 0;
 
@@ -229,7 +229,7 @@ public:
 
 			return true;
 		}
-		else if (max_length == 2 * input) { // Pattern 3
+		else if (max_length == 2 * input) { // Pattern 5
 			int star_num = 2 * input*input, count = 0;
 			int start1 = 0, finish1 = 0, f1 = 1;
 			int start2 = 2 * input - 1, finish2 = 2 * input - 1, s2 = -1;
